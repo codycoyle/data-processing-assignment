@@ -33,7 +33,10 @@ Now use the database methods to interact with the data:
 - **'commit()'**: Commit the current transaction to the database, ends transaction and saves changes
 - **'rollback()'**: Rollback the current transaction, ends transaction and deletes unsaved changes
 
-Examples of each method are in 'main.js' and to run main for testing purposes, make sure you are in the data-processing-assignment directory and run:
+Examples of each method are in 'main.js' and to run main for testing purposes using Node (make sure Node.js is installed and up to date at https://nodejs.org/en), make sure you are in the data-processing-assignment directory and run:
 ```bash
 node main
 ```
+
+## How to improve this assignment
+Overall, the assignment is a good basic overview of how transactions work. I think, however, to make this a more fleshed-out assignment, you could add additional requirements to set up an actual database using free online database resources (ElephantSQL is a good free example). Using the real outsourced PostgreSQL (or other) database along with a helper library like Sequelize, have students set up transaction methods. Not only would this help students learn about transactions and their importance, but this could also teach them about some back-end libraries and help them learn how to set up their own databases.
